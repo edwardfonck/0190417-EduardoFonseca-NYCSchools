@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F7A1AA42267B28400F3754A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A1AA32267B28400F3754A /* AppDelegate.m */; };
+		7F7A1AA72267B28400F3754A /* SchoolListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A1AA62267B28400F3754A /* SchoolListViewController.m */; };
+		7F7A1AAD2267B28400F3754A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A1AAB2267B28400F3754A /* Main.storyboard */; };
+		7F7A1AAF2267B28600F3754A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A1AAE2267B28600F3754A /* Assets.xcassets */; };
+		7F7A1AB22267B28700F3754A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A1AB02267B28700F3754A /* LaunchScreen.storyboard */; };
+		7F7A1AB52267B28700F3754A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A1AB42267B28700F3754A /* main.m */; };
+		7F7A1ABF2267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A1ABE2267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsTests.m */; };
+		7F7A1ACA2267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A1AC92267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsUITests.m */; };
+		7FAE2031226801C600164A90 /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE201A226801C600164A90 /* NSDictionary+Utils.m */; };
+		7FAE2035226801C600164A90 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE2026226801C600164A90 /* NSString+Utils.m */; };
+		7FAE2036226801C600164A90 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE2029226801C600164A90 /* UIViewController+Utils.m */; };
+		7FAE203F22680D7000164A90 /* Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE203B22680D7000164A90 /* Loading.m */; };
+		7FAE204022680D7000164A90 /* Loading.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE203C22680D7000164A90 /* Loading.xib */; };
+		7FAE20472268121000164A90 /* DotActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE20442268121000164A90 /* DotActivityIndicatorView.m */; };
+		7FAE20482268121000164A90 /* DotActivityIndicatorParms.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE20462268121000164A90 /* DotActivityIndicatorParms.m */; };
+		7FAE204D22682D4E00164A90 /* SchoolWebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE204C22682D4E00164A90 /* SchoolWebServices.m */; };
+		7FAE205222682ED300164A90 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE205122682ED300164A90 /* User.m */; };
+		7FAE2059226834D200164A90 /* SchoolObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE2058226834D200164A90 /* SchoolObject.m */; };
+		7FAE205C22683A0800164A90 /* SatScoresObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE205B22683A0800164A90 /* SatScoresObject.m */; };
+		7FAE20632268523C00164A90 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE20622268523C00164A90 /* SchoolCell.m */; };
+		7FAE206622686B2600164A90 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE206522686B2600164A90 /* DetailTableViewController.m */; };
+		7FAE206922687DBC00164A90 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE206822687DBC00164A90 /* MapViewController.m */; };
+		7FAE207022688E0200164A90 /* SATResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE206F22688E0200164A90 /* SATResultsViewController.m */; };
+		7FAE20752268952800164A90 /* TransportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE20742268952800164A90 /* TransportViewController.m */; };
+		7FAE20782268A71900164A90 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE20762268A71800164A90 /* Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F7A1ABB2267B28700F3754A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F7A1A972267B28400F3754A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7A1A9E2267B28400F3754A;
+			remoteInfo = "20190417-EduardoFonseca-NYCSchools";
+		};
+		7F7A1AC62267B28700F3754A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F7A1A972267B28400F3754A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7A1A9E2267B28400F3754A;
+			remoteInfo = "20190417-EduardoFonseca-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F7A1A9F2267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190417-EduardoFonseca-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7A1AA22267B28400F3754A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F7A1AA32267B28400F3754A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F7A1AA52267B28400F3754A /* SchoolListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolListViewController.h; sourceTree = "<group>"; };
+		7F7A1AA62267B28400F3754A /* SchoolListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolListViewController.m; sourceTree = "<group>"; };
+		7F7A1AAC2267B28400F3754A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F7A1AAE2267B28600F3754A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F7A1AB12267B28700F3754A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F7A1AB32267B28700F3754A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7A1AB42267B28700F3754A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F7A1ABA2267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190417-EduardoFonseca-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7A1ABE2267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0190417_EduardoFonseca_NYCSchoolsTests.m; sourceTree = "<group>"; };
+		7F7A1AC02267B28700F3754A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7A1AC52267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190417-EduardoFonseca-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7A1AC92267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0190417_EduardoFonseca_NYCSchoolsUITests.m; sourceTree = "<group>"; };
+		7F7A1ACB2267B28700F3754A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE2019226801C600164A90 /* NSDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		7FAE201A226801C600164A90 /* NSDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
+		7FAE2025226801C600164A90 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		7FAE2026226801C600164A90 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		7FAE2028226801C600164A90 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		7FAE2029226801C600164A90 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		7FAE203B22680D7000164A90 /* Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loading.m; sourceTree = "<group>"; };
+		7FAE203C22680D7000164A90 /* Loading.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Loading.xib; sourceTree = "<group>"; };
+		7FAE203D22680D7000164A90 /* Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loading.h; sourceTree = "<group>"; };
+		7FAE20432268120F00164A90 /* DotActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotActivityIndicatorView.h; sourceTree = "<group>"; };
+		7FAE20442268121000164A90 /* DotActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotActivityIndicatorView.m; sourceTree = "<group>"; };
+		7FAE20452268121000164A90 /* DotActivityIndicatorParms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotActivityIndicatorParms.h; sourceTree = "<group>"; };
+		7FAE20462268121000164A90 /* DotActivityIndicatorParms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotActivityIndicatorParms.m; sourceTree = "<group>"; };
+		7FAE204B22682D4E00164A90 /* SchoolWebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolWebServices.h; sourceTree = "<group>"; };
+		7FAE204C22682D4E00164A90 /* SchoolWebServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolWebServices.m; sourceTree = "<group>"; };
+		7FAE205022682ED300164A90 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7FAE205122682ED300164A90 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		7FAE2054226832FD00164A90 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		7FAE2057226834D200164A90 /* SchoolObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolObject.h; sourceTree = "<group>"; };
+		7FAE2058226834D200164A90 /* SchoolObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolObject.m; sourceTree = "<group>"; };
+		7FAE205A22683A0800164A90 /* SatScoresObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatScoresObject.h; sourceTree = "<group>"; };
+		7FAE205B22683A0800164A90 /* SatScoresObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatScoresObject.m; sourceTree = "<group>"; };
+		7FAE20612268523C00164A90 /* SchoolCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolCell.h; sourceTree = "<group>"; };
+		7FAE20622268523C00164A90 /* SchoolCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolCell.m; sourceTree = "<group>"; };
+		7FAE206422686B2600164A90 /* DetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		7FAE206522686B2600164A90 /* DetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		7FAE206722687DBC00164A90 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		7FAE206822687DBC00164A90 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		7FAE206E22688E0200164A90 /* SATResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SATResultsViewController.h; sourceTree = "<group>"; };
+		7FAE206F22688E0200164A90 /* SATResultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SATResultsViewController.m; sourceTree = "<group>"; };
+		7FAE20732268952800164A90 /* TransportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransportViewController.h; sourceTree = "<group>"; };
+		7FAE20742268952800164A90 /* TransportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransportViewController.m; sourceTree = "<group>"; };
+		7FAE20762268A71800164A90 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		7FAE20772268A71800164A90 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F7A1A9C2267B28400F3754A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7A1AB72267B28700F3754A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7A1AC22267B28700F3754A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F7A1A962267B28400F3754A = {
+			isa = PBXGroup;
+			children = (
+				7FAE2054226832FD00164A90 /* Prefix.pch */,
+				7F7A1AA12267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools */,
+				7F7A1ABD2267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsTests */,
+				7F7A1AC82267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsUITests */,
+				7F7A1AA02267B28400F3754A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7A1AA02267B28400F3754A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A1A9F2267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools.app */,
+				7F7A1ABA2267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsTests.xctest */,
+				7F7A1AC52267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F7A1AA12267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A1AA22267B28400F3754A /* AppDelegate.h */,
+				7F7A1AA32267B28400F3754A /* AppDelegate.m */,
+				7FAE204F22682EB200164A90 /* GeneralUses */,
+				7FAE20132268019C00164A90 /* Framework */,
+				7FAE20392268079500164A90 /* _SchoolList */,
+				7F7A1AAE2267B28600F3754A /* Assets.xcassets */,
+				7F7A1AB02267B28700F3754A /* LaunchScreen.storyboard */,
+				7F7A1AB32267B28700F3754A /* Info.plist */,
+				7F7A1AB42267B28700F3754A /* main.m */,
+			);
+			path = "20190417-EduardoFonseca-NYCSchools";
+			sourceTree = "<group>";
+		};
+		7F7A1ABD2267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A1ABE2267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsTests.m */,
+				7F7A1AC02267B28700F3754A /* Info.plist */,
+			);
+			path = "20190417-EduardoFonseca-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		7F7A1AC82267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A1AC92267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsUITests.m */,
+				7F7A1ACB2267B28700F3754A /* Info.plist */,
+			);
+			path = "20190417-EduardoFonseca-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		7FAE20132268019C00164A90 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2042226811D700164A90 /* DotActivityIndicator */,
+				7FAE203A22680D7000164A90 /* Loading */,
+				7FAE2014226801C600164A90 /* Utils */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		7FAE2014226801C600164A90 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2018226801C600164A90 /* NSDictionary */,
+				7FAE2024226801C600164A90 /* NSString */,
+				7FAE2027226801C600164A90 /* UIViewController */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7FAE2018226801C600164A90 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2019226801C600164A90 /* NSDictionary+Utils.h */,
+				7FAE201A226801C600164A90 /* NSDictionary+Utils.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		7FAE2024226801C600164A90 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2025226801C600164A90 /* NSString+Utils.h */,
+				7FAE2026226801C600164A90 /* NSString+Utils.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		7FAE2027226801C600164A90 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2028226801C600164A90 /* UIViewController+Utils.h */,
+				7FAE2029226801C600164A90 /* UIViewController+Utils.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		7FAE20392268079500164A90 /* _SchoolList */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE207122688E0F00164A90 /* Storyboard */,
+				7FAE205E22684F6800164A90 /* ViewControllers */,
+				7FAE2055226834AE00164A90 /* Model */,
+				7FAE204E22682E0600164A90 /* WebServices */,
+			);
+			path = _SchoolList;
+			sourceTree = "<group>";
+		};
+		7FAE203A22680D7000164A90 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE203D22680D7000164A90 /* Loading.h */,
+				7FAE203B22680D7000164A90 /* Loading.m */,
+				7FAE203C22680D7000164A90 /* Loading.xib */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		7FAE2042226811D700164A90 /* DotActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE20452268121000164A90 /* DotActivityIndicatorParms.h */,
+				7FAE20462268121000164A90 /* DotActivityIndicatorParms.m */,
+				7FAE20432268120F00164A90 /* DotActivityIndicatorView.h */,
+				7FAE20442268121000164A90 /* DotActivityIndicatorView.m */,
+			);
+			path = DotActivityIndicator;
+			sourceTree = "<group>";
+		};
+		7FAE204E22682E0600164A90 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE204B22682D4E00164A90 /* SchoolWebServices.h */,
+				7FAE204C22682D4E00164A90 /* SchoolWebServices.m */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		7FAE204F22682EB200164A90 /* GeneralUses */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE20772268A71800164A90 /* Utilities.h */,
+				7FAE20762268A71800164A90 /* Utilities.m */,
+				7FAE20532268318100164A90 /* Object */,
+			);
+			path = GeneralUses;
+			sourceTree = "<group>";
+		};
+		7FAE20532268318100164A90 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE205022682ED300164A90 /* User.h */,
+				7FAE205122682ED300164A90 /* User.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		7FAE2055226834AE00164A90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2056226834B500164A90 /* SchoolObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FAE2056226834B500164A90 /* SchoolObject */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2057226834D200164A90 /* SchoolObject.h */,
+				7FAE2058226834D200164A90 /* SchoolObject.m */,
+				7FAE205D22683EF600164A90 /* SAT_Detail */,
+			);
+			path = SchoolObject;
+			sourceTree = "<group>";
+		};
+		7FAE205D22683EF600164A90 /* SAT_Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE205A22683A0800164A90 /* SatScoresObject.h */,
+				7FAE205B22683A0800164A90 /* SatScoresObject.m */,
+			);
+			path = SAT_Detail;
+			sourceTree = "<group>";
+		};
+		7FAE205E22684F6800164A90 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE2072226894B700164A90 /* Transport Available */,
+				7FAE206D22688DD800164A90 /* SATResults */,
+				7FAE206C22688DB200164A90 /* MapLocation */,
+				7FAE206B22688DA400164A90 /* DetailSchool */,
+				7FAE206A22688D8F00164A90 /* SchoolList */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7FAE20602268521B00164A90 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE20612268523C00164A90 /* SchoolCell.h */,
+				7FAE20622268523C00164A90 /* SchoolCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7FAE206A22688D8F00164A90 /* SchoolList */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE20602268521B00164A90 /* Cells */,
+				7F7A1AA52267B28400F3754A /* SchoolListViewController.h */,
+				7F7A1AA62267B28400F3754A /* SchoolListViewController.m */,
+			);
+			path = SchoolList;
+			sourceTree = "<group>";
+		};
+		7FAE206B22688DA400164A90 /* DetailSchool */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE206422686B2600164A90 /* DetailTableViewController.h */,
+				7FAE206522686B2600164A90 /* DetailTableViewController.m */,
+			);
+			path = DetailSchool;
+			sourceTree = "<group>";
+		};
+		7FAE206C22688DB200164A90 /* MapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE206722687DBC00164A90 /* MapViewController.h */,
+				7FAE206822687DBC00164A90 /* MapViewController.m */,
+			);
+			path = MapLocation;
+			sourceTree = "<group>";
+		};
+		7FAE206D22688DD800164A90 /* SATResults */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE206E22688E0200164A90 /* SATResultsViewController.h */,
+				7FAE206F22688E0200164A90 /* SATResultsViewController.m */,
+			);
+			path = SATResults;
+			sourceTree = "<group>";
+		};
+		7FAE207122688E0F00164A90 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A1AAB2267B28400F3754A /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7FAE2072226894B700164A90 /* Transport Available */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE20732268952800164A90 /* TransportViewController.h */,
+				7FAE20742268952800164A90 /* TransportViewController.m */,
+			);
+			path = "Transport Available";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F7A1A9E2267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7A1ACE2267B28700F3754A /* Build configuration list for PBXNativeTarget "20190417-EduardoFonseca-NYCSchools" */;
+			buildPhases = (
+				7F7A1A9B2267B28400F3754A /* Sources */,
+				7F7A1A9C2267B28400F3754A /* Frameworks */,
+				7F7A1A9D2267B28400F3754A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20190417-EduardoFonseca-NYCSchools";
+			productName = "20190417-EduardoFonseca-NYCSchools";
+			productReference = 7F7A1A9F2267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F7A1AB92267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7A1AD12267B28700F3754A /* Build configuration list for PBXNativeTarget "20190417-EduardoFonseca-NYCSchoolsTests" */;
+			buildPhases = (
+				7F7A1AB62267B28700F3754A /* Sources */,
+				7F7A1AB72267B28700F3754A /* Frameworks */,
+				7F7A1AB82267B28700F3754A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F7A1ABC2267B28700F3754A /* PBXTargetDependency */,
+			);
+			name = "20190417-EduardoFonseca-NYCSchoolsTests";
+			productName = "20190417-EduardoFonseca-NYCSchoolsTests";
+			productReference = 7F7A1ABA2267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F7A1AC42267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7A1AD42267B28700F3754A /* Build configuration list for PBXNativeTarget "20190417-EduardoFonseca-NYCSchoolsUITests" */;
+			buildPhases = (
+				7F7A1AC12267B28700F3754A /* Sources */,
+				7F7A1AC22267B28700F3754A /* Frameworks */,
+				7F7A1AC32267B28700F3754A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F7A1AC72267B28700F3754A /* PBXTargetDependency */,
+			);
+			name = "20190417-EduardoFonseca-NYCSchoolsUITests";
+			productName = "20190417-EduardoFonseca-NYCSchoolsUITests";
+			productReference = 7F7A1AC52267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F7A1A972267B28400F3754A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Eduardo Fonseca";
+				TargetAttributes = {
+					7F7A1A9E2267B28400F3754A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					7F7A1AB92267B28700F3754A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 7F7A1A9E2267B28400F3754A;
+					};
+					7F7A1AC42267B28700F3754A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 7F7A1A9E2267B28400F3754A;
+					};
+				};
+			};
+			buildConfigurationList = 7F7A1A9A2267B28400F3754A /* Build configuration list for PBXProject "20190417-EduardoFonseca-NYCSchools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F7A1A962267B28400F3754A;
+			productRefGroup = 7F7A1AA02267B28400F3754A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F7A1A9E2267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools */,
+				7F7A1AB92267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsTests */,
+				7F7A1AC42267B28700F3754A /* 20190417-EduardoFonseca-NYCSchoolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F7A1A9D2267B28400F3754A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7A1AB22267B28700F3754A /* LaunchScreen.storyboard in Resources */,
+				7F7A1AAF2267B28600F3754A /* Assets.xcassets in Resources */,
+				7FAE204022680D7000164A90 /* Loading.xib in Resources */,
+				7F7A1AAD2267B28400F3754A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7A1AB82267B28700F3754A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7A1AC32267B28700F3754A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F7A1A9B2267B28400F3754A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE206622686B2600164A90 /* DetailTableViewController.m in Sources */,
+				7FAE20632268523C00164A90 /* SchoolCell.m in Sources */,
+				7FAE20752268952800164A90 /* TransportViewController.m in Sources */,
+				7FAE205222682ED300164A90 /* User.m in Sources */,
+				7FAE20782268A71900164A90 /* Utilities.m in Sources */,
+				7F7A1AA72267B28400F3754A /* SchoolListViewController.m in Sources */,
+				7FAE2036226801C600164A90 /* UIViewController+Utils.m in Sources */,
+				7FAE2059226834D200164A90 /* SchoolObject.m in Sources */,
+				7FAE206922687DBC00164A90 /* MapViewController.m in Sources */,
+				7F7A1AA42267B28400F3754A /* AppDelegate.m in Sources */,
+				7F7A1AB52267B28700F3754A /* main.m in Sources */,
+				7FAE205C22683A0800164A90 /* SatScoresObject.m in Sources */,
+				7FAE203F22680D7000164A90 /* Loading.m in Sources */,
+				7FAE20472268121000164A90 /* DotActivityIndicatorView.m in Sources */,
+				7FAE20482268121000164A90 /* DotActivityIndicatorParms.m in Sources */,
+				7FAE204D22682D4E00164A90 /* SchoolWebServices.m in Sources */,
+				7FAE2031226801C600164A90 /* NSDictionary+Utils.m in Sources */,
+				7FAE2035226801C600164A90 /* NSString+Utils.m in Sources */,
+				7FAE207022688E0200164A90 /* SATResultsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7A1AB62267B28700F3754A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7A1ABF2267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7A1AC12267B28700F3754A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7A1ACA2267B28700F3754A /* _0190417_EduardoFonseca_NYCSchoolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F7A1ABC2267B28700F3754A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F7A1A9E2267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools */;
+			targetProxy = 7F7A1ABB2267B28700F3754A /* PBXContainerItemProxy */;
+		};
+		7F7A1AC72267B28700F3754A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F7A1A9E2267B28400F3754A /* 20190417-EduardoFonseca-NYCSchools */;
+			targetProxy = 7F7A1AC62267B28700F3754A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F7A1AAB2267B28400F3754A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7A1AAC2267B28400F3754A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F7A1AB02267B28700F3754A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7A1AB12267B28700F3754A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F7A1ACC2267B28700F3754A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F7A1ACD2267B28700F3754A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F7A1ACF2267B28700F3754A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
+				INFOPLIST_FILE = "20190417-EduardoFonseca-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.-0190417-EduardoFonseca-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F7A1AD02267B28700F3754A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
+				INFOPLIST_FILE = "20190417-EduardoFonseca-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.-0190417-EduardoFonseca-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F7A1AD22267B28700F3754A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = "20190417-EduardoFonseca-NYCSchoolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.-0190417-EduardoFonseca-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190417-EduardoFonseca-NYCSchools.app/20190417-EduardoFonseca-NYCSchools";
+			};
+			name = Debug;
+		};
+		7F7A1AD32267B28700F3754A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = "20190417-EduardoFonseca-NYCSchoolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.-0190417-EduardoFonseca-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190417-EduardoFonseca-NYCSchools.app/20190417-EduardoFonseca-NYCSchools";
+			};
+			name = Release;
+		};
+		7F7A1AD52267B28700F3754A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = "20190417-EduardoFonseca-NYCSchoolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.-0190417-EduardoFonseca-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20190417-EduardoFonseca-NYCSchools";
+			};
+			name = Debug;
+		};
+		7F7A1AD62267B28700F3754A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = "20190417-EduardoFonseca-NYCSchoolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.-0190417-EduardoFonseca-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20190417-EduardoFonseca-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F7A1A9A2267B28400F3754A /* Build configuration list for PBXProject "20190417-EduardoFonseca-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7A1ACC2267B28700F3754A /* Debug */,
+				7F7A1ACD2267B28700F3754A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7A1ACE2267B28700F3754A /* Build configuration list for PBXNativeTarget "20190417-EduardoFonseca-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7A1ACF2267B28700F3754A /* Debug */,
+				7F7A1AD02267B28700F3754A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7A1AD12267B28700F3754A /* Build configuration list for PBXNativeTarget "20190417-EduardoFonseca-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7A1AD22267B28700F3754A /* Debug */,
+				7F7A1AD32267B28700F3754A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7A1AD42267B28700F3754A /* Build configuration list for PBXNativeTarget "20190417-EduardoFonseca-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7A1AD52267B28700F3754A /* Debug */,
+				7F7A1AD62267B28700F3754A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F7A1A972267B28400F3754A /* Project object */;
+}
